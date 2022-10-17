@@ -1,0 +1,40 @@
+nav {
+  background-color: #5d5d5d;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  img {
+    max-width: 100%;
+    height: 50px;
+  }
+  a {
+    color: white !important;
+  }
+  .collapse {
+    a {
+      color: #212121;
+      font-size: 18px;
+      margin-right: 15px;
+      letter-spacing: 0.5px;
+    }
+    @media (max-width: 991px) {
+      overflow: hidden;
+      width: 80%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 50px 30px;
+      z-index: 9999;
+      background: #222d32;
+      opacity: 0.9;
+      overflow: auto;
+      // transform: translate(-100%);
+      transition: 1s;
+      transition-timing-function: ease-in-out;
+      a {
+        color: white;
+      }
+    }
+  }
+}

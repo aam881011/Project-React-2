@@ -1,0 +1,58 @@
+.boxesGallery {
+  background-color: #fff;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 30px 30px;
+  @media (max-width: 992px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px 30px;
+  }
+  @media (max-width: 490px) {
+    margin-top: 150px;
+  }
+  .box {
+    background-color: #fff;
+    border: 1px solid #f0f2f3;
+    border-radius: 3px;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 4%);
+    height: 239px;
+    padding: 10px 40px;
+    img {
+      max-width: 100%;
+      float: left;
+      width: 150px;
+      height: 150px;
+      padding-right: 15px;
+    }
+    h2 {
+      color: #000;
+      font-size: 20px;
+      margin: 10px 0px;
+    }
+    p {
+      color: #212121;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    span {
+      color: rgb(12, 202, 12);
+      font-size: 16px;
+      margin-top: 10px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    button {
+      background-color: rgb(12, 202, 12);
+      border: 1px solid rgb(12, 202, 12);
+      border-radius: 30px;
+      box-sizing: border-box;
+      width: 140px;
+      height: 40px;
+      color: white;
+      float: right;
+      // margin-bottom: 0px;
+    }
+  }
+}

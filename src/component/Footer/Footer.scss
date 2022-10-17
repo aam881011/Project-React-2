@@ -1,0 +1,26 @@
+.footer {
+  background-color: #f0f2f3;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+  margin-top: 70px;
+  text-align: left;
+  h4 {
+    color: #000;
+    margin: 20px;
+    text-align: left;
+    font-size: 23px;
+  }
+  ul {
+    // padding: 0px;
+    list-style-type: none;
+  }
+  li {
+    margin: 10px 0px;
+    a {
+      text-decoration: none;
+      color: #515151;
+    }
+  }
+}
